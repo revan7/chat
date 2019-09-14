@@ -24,5 +24,5 @@ To run Server:
 To run Client:
 
 * Navigate to `/client/target`
-* `java -jar -D -Dserver.ip=[] -Dserver.port=[] -Dprofile=[] -D -Dusername=[] `
+* `java -jar -Dserver.ip=[] -Dserver.port=[] -Dprofile=[] -Dusername=[] `
 * profile can be `gui` if you want the graphical interface or `cmdline` for the command line (not recommended)
