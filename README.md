@@ -23,8 +23,11 @@ To run Server:
 
 To run Client:
 
-* Navigate to `/client/target`
-* `java -jar -Dserver.ip=[] -Dserver.port=[] -Dprofile=[] -Dusername=[] `
+* Navigate to `/client/target/`
+* Run `java -jar -Dserver.ip=[] -Dserver.port=[] -Dprofile=[] -Dusername=[] `
+
+   Example `java -jar -Dserver.ip=127.0.0.1 -Dserver.port=8081 -Dprofile=gui -Dusername=Dude`
+
 * profile can be `gui` if you want the graphical interface or `cmdline` for the command line (not recommended)
 
 # Roadmap
