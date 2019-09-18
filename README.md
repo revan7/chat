@@ -26,3 +26,22 @@ To run Client:
 * Navigate to `/client/target`
 * `java -jar -Dserver.ip=[] -Dserver.port=[] -Dprofile=[] -Dusername=[] `
 * profile can be `gui` if you want the graphical interface or `cmdline` for the command line (not recommended)
+
+# Roadmap
+
+Add functionality to client GUI.
+
+- [ ] Handle client connection from the GUI.
+- [ ] Create client username from GUI.
+***
+
+Add GUI to Server
+
+
+- [ ] Ability to see who is connected.
+- [ ] Ability to kick connected clients.
+***
+Add implementation for multiple rooms.
+
+TBD
+***
